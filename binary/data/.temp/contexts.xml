@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contexts>
+    <mask path="/home/dai/Downloads/build/data/.temp/mask.png"/>
+    <context id="2" name="Area 2" type="AREA" desc="This is an Area context">
+        <multipoints>
+            <point x="323" y="137"/>
+            <point x="303" y="171"/>
+            <point x="264" y="171"/>
+            <point x="244" y="137"/>
+            <point x="263" y="103"/>
+            <point x="302" y="103"/>
+        </multipoints>
+        <color r="219" g="234" b="209" a="255"/>
+    </context>
+    <context id="3" name="Tripwire 3" type="TRIPWIRE" desc="This is a Tripwire context">
+        <line>
+            <point x="97" y="160"/>
+            <point x="195" y="59"/>
+        </line>
+    </context>
+    <context id="4" name="Tripwire 4" type="TRIPWIRE" desc="This is a Tripwire context">
+        <line>
+            <point x="5" y="119"/>
+            <point x="81" y="32"/>
+        </line>
+    </context>
+    <context id="5" name="Area 5" type="AREA" desc="This is an Area context">
+        <multipoints>
+            <point x="137" y="251"/>
+            <point x="117" y="285"/>
+            <point x="78" y="285"/>
+            <point x="58" y="251"/>
+            <point x="77" y="217"/>
+            <point x="116" y="217"/>
+        </multipoints>
+        <color r="204" g="198" b="203" a="255"/>
+    </context>
+</contexts>

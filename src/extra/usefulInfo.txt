@@ -1,0 +1,17 @@
+
+fix common.h error UINT64_C
+look at linux.die.net/man/3/uint64_c
+use this to put in common.h
+#define UINT64_C(value) __CONCAT(value, ULL)
+
+vinotion lib in 32bit
+
+all in one command:
+sudo apt-get install libavutil-dev libavcodec-dev libxml2-dev libboost-dev libavformat-dev libswscale-dev
+
+libxml2
+libboost
+libavformat-dev 
+libswscale-dev 
+libavutil
+libavcodec

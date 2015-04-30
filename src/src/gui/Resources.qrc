@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/save.png</file>
+        <file>images/paste.png</file>
+        <file>images/open.png</file>
+        <file>images/new.png</file>
+        <file>images/icon.png</file>
+        <file>images/gotocell.png</file>
+        <file>images/find.png</file>
+        <file>images/cut.png</file>
+        <file>images/copy.png</file>
+        <file>images/arrow.png</file>
+        <file>images/add_small.png</file>
+        <file>images/add.png</file>
+        <file>images/underline.png</file>
+        <file>images/textpointer.png</file>
+        <file>images/sendtoback.png</file>
+        <file>images/pointer.png</file>
+        <file>images/linepointer.png</file>
+        <file>images/linecolor.png</file>
+        <file>images/italic.png</file>
+        <file>images/floodfill.png</file>
+        <file>images/delete.png</file>
+        <file>images/bringtofront.png</file>
+        <file>images/bold.png</file>
+        <file>images/background4.png</file>
+        <file>images/background3.png</file>
+        <file>images/background2.png</file>
+        <file>images/background1.png</file>
+        <file>images/polygon.png</file>
+        <file>images/application-exit.svg</file>
+        <file>images/insert-object.svg</file>
+        <file>images/video-x-generic.svg</file>
+        <file>images/load_video_image.svg</file>
+        <file>images/rule.svg</file>
+    </qresource>
+</RCC>

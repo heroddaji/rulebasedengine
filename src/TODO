@@ -1,0 +1,22 @@
+IMPORTANT
+
+- Doxygen document
+- Rewrite rule process
+- Event filter class
+   + Add tripwire direction property / or use event crossing tripwire left -> right
+- Container inside container
+
+OTHER
+- Ask for realtime camera setup in final presentation
+- containter filter, cannot add more event or containt if the type is ONE_EVENT
+
+DONE:
+//- add auto make directory,  not the config file  : DONE 
+ // - Add action menu to each data type (pop up menu with select option) (rule,events...) DONE
+// - Embed virtualfencing into the GUI : not possible, because of SDL layout in ViNotion
+// - Get more videos : DONE
+//- Add/del random point for the area context : DONE
+// Auto save when running demo / save diaglog: DONE
+
+NOT IMPORTANT
+- Camera input

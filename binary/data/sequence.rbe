@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rbe_project>
+    <contexts>
+        <mask path="/home/dai/Dropbox/Graduation/rulebasedengine/build/data/.temp/mask.png"/>
+        <context id="2" name="Area 2" type="AREA" desc="This is an Area context">
+            <multipoints>
+                <point x="259" y="176"/>
+                <point x="239" y="210"/>
+                <point x="200" y="210"/>
+                <point x="180" y="176"/>
+                <point x="199" y="142"/>
+                <point x="238" y="142"/>
+            </multipoints>
+            <color r="219" g="234" b="209" a="255"/>
+        </context>
+        <context id="3" name="Tripwire 3" type="TRIPWIRE" desc="This is a Tripwire context">
+            <line>
+                <point x="225" y="253"/>
+                <point x="323" y="152"/>
+            </line>
+        </context>
+        <context id="4" name="Tripwire 4" type="TRIPWIRE" desc="This is a Tripwire context">
+            <line>
+                <point x="5" y="119"/>
+                <point x="81" y="32"/>
+            </line>
+        </context>
+        <context id="5" name="Area 5" type="AREA" desc="This is an Area context">
+            <multipoints>
+                <point x="134" y="105"/>
+                <point x="114" y="139"/>
+                <point x="75" y="139"/>
+                <point x="55" y="105"/>
+                <point x="74" y="71"/>
+                <point x="113" y="71"/>
+            </multipoints>
+            <color r="204" g="198" b="203" a="255"/>
+        </context>
+    </contexts>
+    <rules>
+        <rule id="1" name="Rule 1" desc="This is a Rule">
+            <event_container type="SEQUENCE" second="50">
+                <event_container type="SEQUENCE" second="50">
+                    <event type="CROSSING_TRIPWIRE"/>
+                    <event type="ENTER_AREA"/>
+                    <action type="PRINT" value="sequence 1"/>
+                </event_container>
+                <event_container type="SEQUENCE" second="50">
+                    <event type="ENTER_AREA"/>
+                    <event type="CROSSING_TRIPWIRE"/>
+                    <action type="PRINT" value="sequence 2"/>
+                </event_container>
+            </event_container>
+        </rule>
+    </rules>
+</rbe_project>

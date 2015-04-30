@@ -1,0 +1,13 @@
+1 -> mouse release bug: if in INSERT_LINE_MODE and then instead of add a new line, user choose other item on scene -> crash
+
+2 -> when run demo and choose a video, the dialog doesn't close
+
+3 -> click on instruction rule text -> crash
+
+4 -> the order of container and event in a rule is not configurable
+  -> work around, create multiple containers in order ("one_event" type for 1 event)
+  
+5 -> after load rule data, delete some item from RuleTree cause crash....
+6 -> load recursive container is not correct
+7 -> when object enter_area or crossing_tripwire, the event keep trigger in one context
+      can cause multiple event (but only count as one event)

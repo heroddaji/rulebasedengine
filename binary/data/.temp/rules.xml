@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+    <rule id="1" name="Rule 1" desc="This is a Rule">
+        <event_container type="SEQUENCE" second="50">
+            <event_container type="SEQUENCE" second="50">
+                <event type="CROSSING_TRIPWIRE"/>
+                <event type="ENTER_AREA"/>
+                <action type="PRINT" value="sequence 1"/>
+            </event_container>
+            <event_container type="SEQUENCE" second="50">
+                <event type="ENTER_AREA"/>
+                <event type="CROSSING_TRIPWIRE"/>
+                <action type="PRINT" value="kkk"/>
+            </event_container>
+        </event_container>
+    </rule>
+</rules>
